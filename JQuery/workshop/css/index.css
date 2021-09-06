@@ -1,0 +1,21 @@
+.circlered{
+    width: 100px;
+    height:100px;
+    background: red;
+    border-radius: 50%;
+    float: left;
+}
+.circleorange{
+    width: 100px;
+    height:100px;
+    background:orange;
+    border-radius: 50%;
+    float: left;
+}
+.circleyellow{
+    width: 100px;
+    height:100px;
+    background:yellow;
+    border-radius: 50%;
+    float: left;
+}

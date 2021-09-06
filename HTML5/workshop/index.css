@@ -1,0 +1,35 @@
+header {
+    text-align: center;
+    font-size: 30px;
+    background-color: blueviolet;
+    height: 40px;
+    color: cornsilk;
+    padding: 2px;
+}
+
+footer {
+    text-align: center;
+    font-size: 10px;
+    background-color: blueviolet;
+    height: 20px;
+    color: cornsilk;
+    padding: 2px;
+}
+
+body {
+    opacity: 1;
+}
+
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+    height: 300px;
+    font-size: 10px;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both
+}

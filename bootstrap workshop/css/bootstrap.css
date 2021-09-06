@@ -1,0 +1,12 @@
+body {
+    background: url("../images/image.jpg") fixed;
+    background-size: cover;
+}
+
+form {
+    max-width: 530px;
+    padding: 15px;
+    margin: 0 auto;
+    border-radius: 25px;
+    background-color: #f2f2f2;
+}

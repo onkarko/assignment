@@ -1,0 +1,48 @@
+@mixin button1 {
+    border-radius: 3px;
+    padding: 12px 15px 12px 15px;
+    background-color: #8bc34a;
+    min-width: 110px;
+    font-family: "SegoeUI SemiBold";
+}
+
+.primary {
+    @include button1;
+    background-color: #8bc34a;
+    color: #FFFFFF;
+    border: 1px solid #8bc34a;
+}
+
+.primary:hover {
+    @include button1;
+    background-color: #9dce5d;
+    color: #FFFFFF;
+    border: 1px solid #9dce5d;
+}
+
+.primary:disabled {
+    @include button1;
+    background-color: #eeeeee;
+    color: #999999;
+    border: 1px solid#eeeeee;
+}
+
+.secondary {
+    @include button1;
+    background-color: #FFFFFF;
+    color: #2095f2;
+}
+
+.secondary:hover {
+    @include button1;
+    background-color: #2095f2;
+    color: #FFFFFF;
+    border: 1px solid #2095f2
+}
+
+.secondary:disabled {
+    @include button1;
+    background-attachment: #ffffff;
+    color: #999999;
+    border: 1px solid #cccc
+}
